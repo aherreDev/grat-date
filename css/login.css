@@ -1,0 +1,145 @@
+
+html,body{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Concert One', cursive;
+    overflow: hidden;
+}
+
+@media (min-width: 1200px) {
+    
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+    .container{
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+        margin: 0px;
+        display: none;
+        background-color: #e9ebee;
+    }
+    .NavBar{
+        color: white;
+        padding-top: .5%;
+        padding-left: 2%;
+        background-color: rgba(0, 0, 0, 0.719);
+        padding-bottom: .2%;
+    }
+    .left{
+        width: 25%;
+        height: 100%;
+    }
+    .right{
+        width: 75%;
+        height: 100%;
+    }
+    .icon{
+        display: inline-block;
+        background-color: #e9526b;
+        border-radius: 50%;
+        text-align: center;
+        height: 24px;
+        width: 24px;
+    }
+    .box{
+        padding-left: 25%;
+        padding-right: 25%;
+        margin: 0px;
+        height: 95%;
+        width: auto;
+    }
+    .articles{
+        width: 100%;
+        height: 100%;
+        padding: 0 2%;
+        margin: 0px;
+        background-color: white;
+        overflow-y:scroll; 
+    }
+    .article{
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        border-radius: 5px;
+        padding:1.2% 1%; 
+    }
+    .contact{
+        height: 128px;
+        width: 128px;
+        border-radius: 50%;
+    }
+    .contactBox {
+        position: relative;
+        display: inline-block;
+        
+      }
+      .contactBox .tooltiptext {
+        visibility: hidden;
+        width: 120px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        top: 90%;
+        left: 50%;
+        margin-left: -60px;
+      }
+      
+      .contactBox .tooltiptext::after {
+        content: "";
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent transparent black transparent;
+      }
+      .contactBox:hover .tooltiptext {
+        visibility: visible;
+      }
+      .contact:hover{
+        box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2);
+        cursor: pointer;
+      }
+      .carousel-cell {
+        width: 100%; /* full width */
+        height: 60vh;
+        /* center images in cells with flexbox */
+        
+      }
+      
+      .carousel.is-fullscreen .carousel-cell {
+        height: 100%;
+      }
+      
+      .carousel-cell img {
+        display: block;
+        max-height: 100%;
+      }
+}
